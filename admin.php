@@ -154,7 +154,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <input type="text" name="hero_subtitle" class="form-control mb-4" value="<?= htmlspecialchars($data['hero']['subtitle']) ?>" required>
 
       <h5 class="mb-3"><i class="fas fa-images me-2"></i>Upload Carousel Images</h5>
-      <input type="file" name="carousel_images[]" class="form-control mb-4" multiple required>
+      <input type="file" name="carousel_images[]" class="form-control mb-4" multiple>
 
       <h5 class="mb-3"><i class="fas fa-concierge-bell me-2"></i>Services</h5>
       <?php foreach ($data['services'] as $i => $service): ?>
