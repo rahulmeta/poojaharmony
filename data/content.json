@@ -1,0 +1,24 @@
+{
+    "hero": {
+        "title": "Welcome to PoojaHarmony",
+        "subtitle": "Book traditional and customized pooja online."
+    },
+    "carousel": [
+        "uploads\/1750540612_0_gradient-rath-yatra-illustration_23-2148983723.avif",
+        "uploads\/1750540705_0_detailed-rath-yatra-illustration_52683-63265.avif"
+    ],
+    "services": [
+        {
+            "title": "Home Pooja Setup",
+            "desc": "All items delivered to your home with setup."
+        },
+        {
+            "title": "Online Pooja",
+            "desc": "Live virtual pooja with priests."
+        },
+        {
+            "title": "Festival Events",
+            "desc": "Book pandits for Durga, Kali, or Lakshmi puja."
+        }
+    ]
+}
