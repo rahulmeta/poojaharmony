@@ -178,8 +178,8 @@ foreach ($data['services'] as $i => $service):
 
   <!-- Floating Social Icons -->
   <div id="social-float">
-    <a href="https://wa.me/1234567890" target="_blank" class="social-icon whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-    <a href="mailto:info@poojaharmony.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+    <a href="https://wa.me/9432328218" target="_blank" class="social-icon whatsapp" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+    <a href="mailto:biswaathchatterjee@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
     <!-- <a href="https://facebook.com/poojaharmony" target="_blank" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
     <a href="https://instagram.com/poojaharmony" target="_blank" class="social-icon" title="Instagram"><i class="fab fa-instagram"></i></a> -->
   </div>
