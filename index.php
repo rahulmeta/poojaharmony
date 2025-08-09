@@ -90,7 +90,11 @@ $data = json_decode(file_get_contents('data/content.json'), true);
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" aria-label="Slide 7"></button>
     </div>
     <div class="carousel-inner rounded shadow-sm" >
       <?php foreach ($data['carousel'] as $index => $img): ?>
@@ -98,15 +102,6 @@ $data = json_decode(file_get_contents('data/content.json'), true);
     <img src="<?= $img ?>" class="d-block w-100" alt="Slide <?= $index + 1 ?>">
   </div>
 <?php endforeach; ?>
-      <!-- <div class="carousel-item active h-100 w-100">
-        <img src="Assets/detailed-rath-yatra-illustration_52683-63265.avif" class="d-block h-100 w-100" alt="Traditional Indian Decor" />
-      </div>
-      <div class="carousel-item">
-        <img src="Assets/gradient-rath-yatra-illustration_23-2148983723.avif" class="d-block w-100" alt="Pooja Rituals" />
-      </div>
-      <div class="carousel-item">
-        <img src="Assets/illustration-lord-jagannath-rath-yatra-festival-odisha-india-celebration-background_129020-1630.avif" class="d-block w-100" alt="Decorative Diyas" />
-      </div> -->
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
